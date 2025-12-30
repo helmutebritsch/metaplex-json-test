@@ -1,0 +1,32 @@
+{
+  "name": "error.func - Dunkelschwarm",
+  "symbol": "AWA",
+  "description": "Devnet test audio access token for Audio Wallet.",
+  "image": "https://promo-boy.com/uploads/promo/logo/655/size300_im-moral-EP-009_error.func_-_Dunkelschwarm_3000x72_final.jpg",
+
+  "attributes": [
+    { "trait_type": "Artist", "value": "Test Artist" },
+    { "trait_type": "Release", "value": "Audio Wallet Devnet" },
+    { "trait_type": "Type", "value": "Audio Access Token" },
+    { "trait_type": "Duration", "value": 420, "unit": "seconds" },
+    { "trait_type": "Style", "value": "Dub Techno" }
+  ],
+
+  "properties": {
+    "category": "audio",
+    "files": [
+      {
+        "uri": "https://promo-boy.com/u/helmut/mp3_downloads/14381",
+        "type": "audio/mpeg",
+        "encrypted": true
+      }
+    ],
+    "audio_wallet": {
+      "version": "1.0",
+      "access": "token-gated",
+      "encryption": "AES-256-GCM",
+      "key_delivery": "external",
+      "content_hash": "DEVNET_TEST_HASH"
+    }
+  }
+}
